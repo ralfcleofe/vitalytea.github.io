@@ -1,0 +1,277 @@
+body{
+    background-color: #e1e0d4;
+    font-family: 'Lato';
+    color: black;
+}
+.lemon-w{
+    font-family: 'Amasis MT';
+    color: white;
+    font-weight: bolder;
+}
+.lemon-b{
+    font-family: 'Amasis MT';
+    color: black;
+    font-weight: bolder;
+}
+.lato-w{
+    font-family: 'SF Mono';
+    color: white;
+}
+.lato-b{
+    font-family: 'SF Mono';
+    color: black;
+}
+.fsbig{
+    font-size: large;
+}
+.bg-body-primary{
+    background-color: #9d7659;
+}
+.form-control[type=search]{
+    background-color: white;
+}
+.it{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 3vh;
+}
+.img-thumbnail{
+    transition: 1s;
+}
+.img-thumbnail:hover{
+    transform: scale(1.1);
+}
+.navbar{
+    background-color: #9d7659; 
+    color: white;
+}
+.logo{
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
+}
+.altlogo{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 10%;
+    height: auto;
+}
+.nav-link{
+    font-family: 'SF Mono';
+    color: white;
+}
+.current{
+    text-decoration: underline;
+}
+.btn-outline-primary{
+    border-color: #191919;
+    color:white;
+}
+.btn-outline-primary:hover{
+    background-color: #191919;
+    border-color: #191919;
+    color:white;
+}
+.footer{
+    background-color: #9d7659; 
+    color: white;
+    font-size: small;
+}
+hr{
+    height: 0.5rem;
+    background-color: black;
+}
+.btn-success{
+    background-color: #191919;
+    border-color: #191919;
+}
+.btn-success:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.socials{
+    font-size: large;
+}
+.socials:hover{
+    color:#9d7659;
+}
+.links:hover{
+    color:#9d7659;
+}
+.loginlogo{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+}
+.btn-primary{
+    background-color: #9d7659;
+    border-color: #9d7659;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.btn-outline-primary:not(:disabled):not(:disabled):active {
+    background-color: white;
+    color: black;
+    border-color: white;
+ } 
+.btn-primary:not(:disabled):not(:disabled):active {
+    background-color: white;
+    color: black;
+    border-color: white;
+ } 
+.btn-success:not(:disabled):not(:disabled):active {
+    background-color: white;
+    color: black;
+    border-color: white;
+ } 
+
+.tab {
+    display: inline-block;
+    margin-left: 4em;
+}
+
+.heroimg{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.badge{
+    border-radius: 50%;
+    font-size: large;
+}
+
+.item{
+    border: 1px solid #ffffff;
+    background-color: #9d7659;
+    color: #000000; 
+}
+
+.altcard{
+    border: 1px solid #000000;
+    background-color: #e1e0d4;
+    color: #000000; 
+}
+
+.itemimage{
+    background-size: cover;
+    background-image: no-repeat;
+    background-position: center;
+    border: 1px solid #ffffff;
+    height: 15rem;
+}
+
+.altitemimage{
+    background-size: cover;
+    background-image: no-repeat;
+    background-position: center;
+    border: 1px solid #000000;
+    height: 15rem;
+}
+
+.cardimage{
+    background-size: cover;
+    background-image: no-repeat;
+    background-position: center;
+    border: 1px solid #ffffff;
+}
+
+.card-text{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.hide{
+    display: none;
+    position: absolute;
+    background-color: #9d7659;
+    bottom: 0;
+    scale: 0.99;
+}
+
+.hiddenc {
+    display: none;
+}
+
+.itemimage:hover + .hide{
+    display: flex;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.menu{
+    z-index: 0;
+}
+
+.menuitem{
+    display: none;
+    z-index: 1;
+    animation: fadeIn 0.5s;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.hov:hover{
+    cursor: pointer;
+}
+
+.paper{
+    background-image: url(assets/PAPER/paper.jpg);
+}
+
+.ink{
+    background-image: url(assets/Ink/ink.webp);
+}
+
+.saddle{
+    background-image: url(assets/Binding/SaddleStitch.jpg);
+}
+
+.heated{
+    background-image: url(assets/Binding/HeatedSpine.jpg);
+}
+
+.wire{
+    background-image: url(assets/Binding/WireBinding.jpg);
+}
+
+.laminate{
+    background-image: url(assets/Laminating_cutting/Laminating.jpg);
+}
+
+.cut{
+    background-image: url(assets/Laminating_cutting/cutting.webp);
+}
+
+.glossy{
+    background-image: url(assets/PAPER/Glossypaper.jpg);
+}
+
+.matte{
+    background-image: url(assets/PAPER/Mattepaper.jpg);
+}
+
+.textured{
+    background-image: url(assets/PAPER/Texturedpaper.jpg);
+}
+
+.hp{
+    background-image: url(assets/Ink/HPBRAND.jpg);
+}
+
+.epson{
+    background-image: url(assets/Ink/EpsonBRAND.jpg);
+}
+
+.canon{
+    background-image: url(assets/Ink/CANONBRAND.jpg);
+}
