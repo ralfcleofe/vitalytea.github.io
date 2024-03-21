@@ -497,7 +497,7 @@ var totalPrint = parseFloat(document.getElementById('totalPrint').textContent);
 
 function updateTotalQty() {
 	var totalQty = 0;
-	$('.quantityInput').each(function () {
+	$('.quantityInputM').each(function () {
 		totalQty += parseInt($(this).val()) || 0;
 	});
 	$('#Qty').text(totalQty);
