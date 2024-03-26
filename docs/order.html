@@ -487,9 +487,9 @@ var totalPrint = parseFloat(document.getElementById('totalPrint').textContent);
     } else if (payment > total) {
         change = payment - total;
         document.getElementById('data').innerHTML = "<strong>Name: </strong>" + fName + "<br>" + "<strong>Email: </strong>" + email + "<br>" + "<strong>Cellphone no.: </strong>" +  cpNum + "<br>" + "<strong>Message: </strong>" + cmessage + "<br>" + "<br> <strong>Payment: </strong>₱" + payment + " - ₱" + total + "<br> <strong>Change: </strong>₱" + change;
-    } else if (payment === total) {
+    } else if (payment == total) {
         change = payment - total;
-        document.getElementById('data').innerHTML = "<strong>Name: </strong>" + fName + " " + lName + "<br>" + "<strong>Cellphone no.: </strong>" + cpNum + "<br> <strong>Payment: </strong>₱" + payment + " - ₱" + total + "<br> <strong>Change: </strong>₱" + change;
+        document.getElementById('data').innerHTML = "<strong>Name: </strong>" + fName + "<br>" + "<strong>Email: </strong>" + email + "<br>" + "<strong>Cellphone no.: </strong>" +  cpNum + "<br>" + "<strong>Message: </strong>" + cmessage + "<br>" + "<br> <strong>Payment: </strong>₱" + payment + " - ₱" + total + "<br> <strong>Change: </strong>₱" + change;
     } else {
         document.getElementById('data').innerHTML = "You must enter a valid amount.";
     }
